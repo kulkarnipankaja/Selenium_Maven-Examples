@@ -8,6 +8,7 @@ public class test1 {
 
 	public static void main(String[] args) throws Exception  {
 		
+		//this is Firefox Driver code
 		WebDriver driver;
 		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
 		driver =new FirefoxDriver();
